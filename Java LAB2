@@ -1,0 +1,25 @@
+//Write a program to print your identity using the scanner class
+
+import java.util.Scanner;
+
+public class Identity {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        //inputs
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        System.out.print("Enter your SAP ID: ");
+        int sapId = sc.nextInt();
+
+        // Print
+        System.out.println("My Identity :");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("SAP ID: " + sapId);
+    }
+}
